@@ -1,7 +1,9 @@
 import 'dart:core';
 
-void demo1() {
-  //定义一个变量
+//定义常量和变量
+void demo() {
+  //变量
+  //定义一个变量var， 在这里没有let
   var name = 'linwenlong';
   print('name is $name');
 
@@ -14,6 +16,7 @@ void demo1() {
     print('age is not null');
   }
 
+  //常量
   //如果一个变量不可会变化，可以用final或者const来修饰，final表示只能被设定一次，const是一个编译是的常量
 
   //区别const是编译时的常量，值不能通过计算得到的。final是运行时常量，值可以在运行时产生
