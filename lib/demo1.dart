@@ -1,7 +1,7 @@
 import 'dart:core';
 
 //定义常量和变量
-void demo() {
+void demo1() {
   //变量
   //定义一个变量var， 在这里没有let
   var name = 'linwenlong';
