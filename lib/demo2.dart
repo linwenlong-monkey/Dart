@@ -142,6 +142,12 @@ void listDemo() {
   print('list is $list');
 }
 
+//set
+
+void setDemo() {
+  var sets = {'a', 'b', 'c'};
+}
+
 //map key和value类型，
 
 void mapDemo() {
@@ -179,4 +185,7 @@ void mapDemo() {
   week1.keys.forEach((element) {
     print(element);
   });
+
+  //检查map是否存在指定的key
+  assert(week1['monday'] != null);
 }
